@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CB Library OKOS
+  host: CB-Library-OKOS
+  disk_quota: 1024M
+  services:
+  - CB Library OKOS-cloudantNoSQLDB
+  - Conversation-Bluehack-OKOS
